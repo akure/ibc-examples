@@ -79,3 +79,35 @@ Changes to be committed:
 	modified:   x/blog/types/query.pb.go
 	new file:   x/blog/types/query.pb.gw.go
 
+=============================================================
+
+DATE : Thursday 15 July 2021 05:59:09 PM IST
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   proto/blog/genesis.proto
+	modified:   proto/blog/query.proto
+	new file:   proto/blog/sentPost.proto
+	modified:   vue/src/store/generated/index.d.ts
+	modified:   vue/src/store/generated/index.js
+	modified:   vue/src/store/generated/index.ts
+	modified:   vue/src/views/Types.vue
+	modified:   x/blog/client/cli/query.go
+	new file:   x/blog/client/cli/querySentPost.go
+	new file:   x/blog/client/cli/querySentPost_test.go
+	modified:   x/blog/genesis.go
+	new file:   x/blog/keeper/grpc_query_sentPost.go
+	new file:   x/blog/keeper/grpc_query_sentPost_test.go
+	new file:   x/blog/keeper/sentPost.go
+	new file:   x/blog/keeper/sentPost_test.go
+	modified:   x/blog/types/genesis.go
+	modified:   x/blog/types/genesis.pb.go
+	modified:   x/blog/types/keys.go
+	modified:   x/blog/types/query.pb.go
+	modified:   x/blog/types/query.pb.gw.go
+	new file:   x/blog/types/sentPost.pb.go
+
+
