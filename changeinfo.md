@@ -240,4 +240,24 @@ Changes to be committed:
 	modified:   x/blog/keeper/ibcPost.go
 	modified:   x/blog/keeper/msg_server_ibcPost.go
 
-=====================================================
+=======================================================
+
+DATE : Thursday 15 July 2021 11:15:32 PM IST
+
+After spining up the chain using "starport serve"
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   vue/src/store/generated/akure/planet/akure.planet.blog/module/types/blog/packet.d.ts
+	modified:   vue/src/store/generated/akure/planet/akure.planet.blog/module/types/blog/packet.js
+	modified:   vue/src/store/generated/akure/planet/akure.planet.blog/module/types/blog/packet.ts
+	modified:   vue/src/store/generated/index.d.ts
+	modified:   vue/src/store/generated/index.js
+	modified:   vue/src/store/generated/index.ts
+	modified:   x/blog/types/packet.pb.go
+
+
+=======================================================
