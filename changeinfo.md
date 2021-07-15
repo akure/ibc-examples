@@ -227,4 +227,17 @@ Changes to be committed:
 	new file:   x/blog/types/packet_ibcPost.go
 	modified:   x/blog/types/tx.pb.go
 
+======================================================
 
+DATE : Thursday 15 July 2021 11:08:30 PM IST
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   proto/blog/packet.proto
+	modified:   x/blog/keeper/ibcPost.go
+	modified:   x/blog/keeper/msg_server_ibcPost.go
+
+=====================================================
