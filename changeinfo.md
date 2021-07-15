@@ -82,6 +82,8 @@ Changes to be committed:
 =============================================================
 
 DATE : Thursday 15 July 2021 05:59:09 PM IST
+command :
+starport type sentPost postID title chain --module blog --no-message
 
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -110,4 +112,38 @@ Changes to be committed:
 	modified:   x/blog/types/query.pb.gw.go
 	new file:   x/blog/types/sentPost.pb.go
 
+===================================================================
+
+Thursday 15 July 2021 06:13:24 PM IST
+
+command : 
+starport type timedoutPost title chain --module blog --no-message
+
+Status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   proto/blog/genesis.proto
+	modified:   proto/blog/query.proto
+	new file:   proto/blog/timedoutPost.proto
+	modified:   vue/src/store/generated/index.d.ts
+	modified:   vue/src/store/generated/index.js
+	modified:   vue/src/store/generated/index.ts
+	modified:   vue/src/views/Types.vue
+	modified:   x/blog/client/cli/query.go
+	new file:   x/blog/client/cli/queryTimedoutPost.go
+	new file:   x/blog/client/cli/queryTimedoutPost_test.go
+	modified:   x/blog/genesis.go
+	new file:   x/blog/keeper/grpc_query_timedoutPost.go
+	new file:   x/blog/keeper/grpc_query_timedoutPost_test.go
+	new file:   x/blog/keeper/timedoutPost.go
+	new file:   x/blog/keeper/timedoutPost_test.go
+	modified:   x/blog/types/genesis.go
+	modified:   x/blog/types/genesis.pb.go
+	modified:   x/blog/types/keys.go
+	modified:   x/blog/types/query.pb.go
+	modified:   x/blog/types/query.pb.gw.go
+	new file:   x/blog/types/timedoutPost.pb.go
 
